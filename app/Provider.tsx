@@ -6,17 +6,12 @@ import { RoomProvider } from "@liveblocks/react";
 import { ClientSideSuspense } from "@liveblocks/react";
 import React, { ReactNode } from "react";
 
-
-const Provider = ({ children } : { children : ReactNode}) => {
+const Provider = ({ children }: { children: ReactNode }) => {
   return (
     <LiveblocksProvider authEndpoint={"/api/liveblocks-auth"}>
-      <RoomProvider id="my-room">
-        <ClientSideSuspense fallback={<Loader/>}>
-          {children}
-        </ClientSideSuspense>
-      </RoomProvider>
+      <ClientSideSuspense fallback={<Loader />}>{children}</ClientSideSuspense>
     </LiveblocksProvider>
-  )
-}
+  );
+};
 
-export default Provider
+export default Provider;
