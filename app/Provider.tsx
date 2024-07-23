@@ -1,9 +1,8 @@
 "use client";
 
 import Loader from "@/components/Loader";
-import { LiveblocksProvider } from "@liveblocks/react";
+import { LiveblocksProvider, ClientSideSuspense } from "@liveblocks/react/suspense";
 import { RoomProvider } from "@liveblocks/react";
-import { ClientSideSuspense } from "@liveblocks/react";
 import React, { ReactNode } from "react";
 
 const Provider = ({ children }: { children: ReactNode }) => {

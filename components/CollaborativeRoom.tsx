@@ -1,6 +1,6 @@
-import React from "react";
-import { RoomProvider } from "@liveblocks/react";
-import { ClientSideSuspense } from "@liveblocks/react";
+"use client";
+
+import { RoomProvider, ClientSideSuspense } from "@liveblocks/react/suspense";
 import { Editor } from "@/components/editor/Editor";
 import Header from "./Header";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
