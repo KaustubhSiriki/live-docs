@@ -64,6 +64,7 @@ const ShareModal = ({
       </DialogTrigger>
       <DialogContent className="shad-dialog">
         <DialogHeader className="ml-1">
+          <p className="text-xs">*can only share to those who created an account before*</p>
           <DialogTitle>Manage who can view this project.</DialogTitle>
           <DialogDescription>
             Select which users can view or edit this document
