@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1 align="center">LiveDocs - Collaborative Document Editing</h1>
+  <h1 align="center">LiveDocs - Google Docs Clone</h1>
 
   <br />
   <div class="image-placeholder">
@@ -11,40 +11,38 @@
 
 ## Introduction
 
-Welcome to "LiveDocs," a real-time collaborative document editing application. 
-
-Built with Next.js to handle the user interface, Liveblocks for real-time features, and styled with TailwindCSS, LiveDocs is a clone of Google Docs. The primary goal is to demonstrate the developer's skills in a real-time environment that creates a lasting impact.
+Welcome to "LiveDocs," a real-time collaborative document editing application and Google Docs clone.
 
 ## Deployment
 
-**Warning:** It does take a few seconds to load the application.
+**Warning:** It may take a few seconds to load the application.
 
 The project is deployed on Vercel. You can view the live site here: [LiveDocs on Vercel](https://live-docs-main.vercel.app)
 
 ## Features
 
-- **Authentication:** User authentication using GitHub through NextAuth, ensuring secure sign-in/out and session management.
+- **Authentication:** Secure user authentication using GitHub through NextAuth for seamless sign-in/out and session management.
 - **Collaborative Text Editor:** Multiple users can edit the same document simultaneously with real-time updates.
-- **Documents Management:**
-  - Create Documents: Users can create new documents, which are automatically saved and listed.
-  - Delete Documents: Users can delete documents they own.
-  - Share Documents: Users can share documents via email or link with view/edit permissions.
-  - List Documents: Display all documents owned or shared with the user, with search and sorting functionalities.
-- **Comments:** Users can add inline and general comments, with threading for discussions.
+- **Document Management:**
+  - **Create Documents:** Users can create new documents, which are automatically saved and listed.
+  - **Delete Documents:** Users can delete documents they own.
+  - **Share Documents:** Users can share documents via email or link with view/edit permissions.
+  - **List Documents:** Display all documents owned or shared with the user, with search and sorting functionalities.
+- **Comments:** Add inline and general comments with threading for discussions.
 - **Active Collaborators on Text Editor:** Show active collaborators with real-time presence indicators.
 - **Notifications:** Notify users of document shares, new comments, and collaborator activities.
-- **Responsive:** The application is responsive across all devices.
+- **Responsive:** The application is fully responsive across all devices.
 
 and many more, including code architecture and reusability.
 
 ## Technologies Used
 
-- **Next.js:** To handle the user interface.
-- **TypeScript:** For type safety and better development experience.
+- **Next.js:** For server-side rendering and handling the user interface.
+- **TypeScript:** For type safety and an improved development experience.
 - **Liveblocks:** For real-time collaborative features.
-- **Lexical Editor:** For rich text editing.
+- **Lexical Editor:** For rich text editing capabilities.
 - **ShadCN:** For additional UI components.
-- **Tailwind CSS:** For styling.
+- **Tailwind CSS:** For modern and responsive styling.
 
 ## Learning Experience
 
@@ -52,11 +50,7 @@ This project was a fantastic learning opportunity. Following the step-by-step tu
 
 ## Personal Touch
 
-I aimed to go beyond the basics by incorporating unique features and interactions, making the user experience as enjoyable and intuitive as possible. This project reflects my dedication to front-end development and my eye for design detail.
-
-## Community and Support
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 34k+ members. It's a place where people help each other out.
+I aimed to go beyond the basics by incorporating unique features and interactions, making the user experience as enjoyable and intuitive as possible. This project reflects my dedication to front-end development and my attention to design details.
 
 ## Conclusion
 
